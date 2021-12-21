@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #87e69a;
   color: #fff;
   overflow-x: hidden;
 }
@@ -20,6 +20,20 @@ h1 {
   h1 {
     font-size: 3rem;
   }
+}
+
+.headerContent {
+  margin-bottom: 40px;
+}
+
+.headerContent h1 {
+  margin-bottom: 10px;
+}
+
+.headerContent .tagLine {
+  color: #fff;
+  font-weight:bold;
+  font-size: 1.4rem;
 }
 
 .unsupported-network {
@@ -139,3 +153,4 @@ button:disabled {
   opacity: 0.8;
   pointer-events: none;
 }
+
