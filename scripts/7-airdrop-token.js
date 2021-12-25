@@ -42,7 +42,7 @@ const tokenModule = sdk.getTokenModule(
     });
 
     // call transferBatch onn all our airdrop targets
-    console.log("🌈 Starting airdrop ...");
+    console.log("🛫 Starting airdrop ...");
     await tokenModule.transferBatch(airdropTargets);
     console.log(
       "✅ Successfully airdropped tokens to all the holders of the NFT"
